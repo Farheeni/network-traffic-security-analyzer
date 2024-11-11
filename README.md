@@ -16,19 +16,20 @@ is displayed on the screen.
 This application depends exclusively on the [NETProtocols](https://github.com/EONRaider/NETProtocols) 
 library (also developed and maintained by [EONRaider](https://github.com/EONRaider)) 
 from version 2.0.0 and above and can be run by any Python 3.8+ interpreter.
-
-## Demo
-![sniffer_demo](https://user-images.githubusercontent.com/15611424/178045423-067df4ec-1853-400e-9b5a-10154cb6fcc1.gif)
+##DEMO
+'''
+it opens in streamlite app and u can type your network interface and start your work on your browser if you try to open malicious websites it give alert and also shows DNS TRAFFIC,PORT SCANNING
+'''
 
 ## Running the Application
 ### I. Development Mode
 Simply clone this repository with `git clone`, install the dependencies and execute the 
-`sniffer.py` file.
+`streamlit_sniffer.py` file.
 ```
 user@host:~$ git clone https://github.com/EONRaider/Packet-Sniffer.git
 user@host:~$ cd Packet-Sniffer
 user@host:~/packet-sniffer$ pip install -r requirements.txt <--or--> poetry install
-user@host:~/packet-sniffer$ sudo python3 packet_sniffer/sniffer.py
+user@host:~/packet-sniffer$ sudo python3 packet_sniffer/streamlit_sniffer.py
 ```
 
 *The `sudo` command is required due to the use of `socket.SOCK_RAW`,
